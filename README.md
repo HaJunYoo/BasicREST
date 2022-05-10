@@ -1,8 +1,11 @@
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f2d45d4d-4a92-4d48-baf3-6b83b73825dd/Untitled.png)
+# REST API using CBV, Serializer
 
-![스크린샷 2022-05-09 오후 2.48.42.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f2780b78-ad10-447a-bcbe-c9d19f42fb55/스크린샷_2022-05-09_오후_2.48.42.png)
 
-# XML
+
+<details>
+<summary>XML, JSON 개념 </summary>
+<div markdown="1">
+## XML
 
 XML은 데이터를 저장하고 전달할 목적으로 만들어졌으며, 저장되는 데이터의 구조를 기술하기 위한 언어입니다.
 
@@ -336,4 +339,5 @@ JSON 데이터는 이름과 값의 쌍으로 구성됩니다.
 
 **Creating lists in XML and JSON**
 
-![스크린샷 2022-05-09 오후 3.09.33.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/50bb9afb-20e9-4085-bfb4-1d057d446be1/스크린샷_2022-05-09_오후_3.09.33.png)
+</div>
+</details>

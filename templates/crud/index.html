@@ -1,0 +1,21 @@
+{% extends 'crud/base.html' %}
+{% block body %}
+
+<form class="form-inline">
+    {% csrf_token %}
+    <div class="form-group">
+        <label>Title</label>
+        <input type="text" id="title" class="form-control" style="width:30%;" required="required"/>
+        <br>
+        <label>Content</label>
+        <input type="textarea" id="content" class="form-control" style="width:70%;" required="required"/>
+        <button type="button" id="create" class="btn btn-sm btn-primary">Create</button>
+    </div>
+</form>
+<br />
+
+{# id =  result -> static 폴더 내 script_crud -> ajax 방식으로 response 받아와 보여준다 -> p_result 결과를 보여준다  #}
+<div id="result">
+</div>
+
+{% endblock %}
